@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+span {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+}
+
+div.child {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  float: left;
+  border: 2px solid black;
+}
+
+section {
+  background-color: green;
+  height: 100px;
+  width: 300px;
+}
+
+.clear {
+  content: "";
+  display: table;
+  clear: both;
+}

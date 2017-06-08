@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.placeholder {
+  background-color: #bbb;
+  border: 1px solid black;
+  margin: 2vh;
+}
+
+header, footer, .main, aside {
+  float: left;
+}
+
+header, footer {
+  width: 100%;
+}
+
+.main {
+  width: 70%;
+}
+
+aside {
+  width: 30%;
+}
+
+header .placeholder, footer .placeholder {
+  height: 22vh;
+}
+
+.main .placeholder, aside .placeholder {
+  height: 44vh;
+}
